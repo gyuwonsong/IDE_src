@@ -2,7 +2,7 @@
 unsigned int count, toggle;
 
 void setup() {
-  pinMode(PIN_LED, OUTPUT)
+  pinMode(PIN_LED, OUTPUT);
   Serial.begin(115200); // Initialize sirial port.
   while (!Serial) {
     ; // wait for serial port to connect.
